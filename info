@@ -1,0 +1,32 @@
+Prelude são os pacotes iniciais que vem no haskell, a "build";
+Nome da função em CamelCase, exemplo:
+nomeDaFuncao p1 p2 pn = expressao
+
+:l compila
+:r recarrega 
+:t funcao verifica o tipo da funcao.
+
+:! clear = limpa a tela
+:: has type é o header da funcao, todo tipo no haskell tem a letra maiuscula
+
+somar :: Int -> Int -> Int
+           x     y     Retorno, a ultima flecha é sempre do retorno da função.
+
+--List Compreenshion
+[EXPRESSAO | x <-LISTA, FILTROS]
+[2*x | x<-[0..200], x >= 5, x <= 190]
+2 * 5, 2 * 6 ...
+10, 12
+
+-- 1) Gere a lista [5,7,9,11,13,17,19,21]
+-- 2) Faça uma função que recebe via parâmetro
+-- uma lista de inteiros e retorne uma outra lista
+-- com seus número diminuidos em 2.
+-- 3) Faça uma função que recebe via parâmetro
+-- uma lista de inteiros e retorne uma outra lista
+-- com seus número diminuidos em 7 e em sua ordem reversa.
+
+/= diferente
+
+-- Composição de funções, vc só pode colocar uma função dentro da outra se os tipos baterem (match).
+ou seja, quando o retorno de uma bate com a entrada da outra.
