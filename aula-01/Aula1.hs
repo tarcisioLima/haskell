@@ -60,4 +60,4 @@ f4 x = x >= 19
 listaStr :: String
 listaStr = ['A'..'z']
 
--- 1- gabriel e vitoria primeira equipe 2, 3, 4, 5, 6,7,8,eu,
+
