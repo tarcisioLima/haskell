@@ -30,3 +30,18 @@ somar :: Int -> Int -> Int
 
 -- Composição de funções, vc só pode colocar uma função dentro da outra se os tipos baterem (match).
 ou seja, quando o retorno de uma bate com a entrada da outra.
+
+15/08
+
+-pattern matching
+
+data é usado pra criar os tipos. 
+Data Constructor especifica um novo tipo.
+Value Constructor: os valores do data construct(tipo), fica sempre do lado direito da igualdade da palavra data.
+indica todos os valore assumidos por aquele tipo.
+_ =  comportamento default do partter maching
+
+Derivings:
+Show :  Mostra os valores
+Enum :  Permite usar .. 
+
